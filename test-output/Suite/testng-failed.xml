@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="Tests.TC01">
+        <methods>
+          <include name="launch_Bro"/>
+          <include name="tear_Down_Page"/>
+        </methods>
+      </class> <!-- Tests.TC01 -->
+      <class name="Tests.TC02">
+        <methods>
+          <include name="launch_Bro"/>
+          <include name="tear_Down_Page"/>
+          <include name="meth1"/>
+        </methods>
+      </class> <!-- Tests.TC02 -->
+      <class name="Tests.TC03">
+        <methods>
+          <include name="launch_Bro"/>
+          <include name="tear_Down_Page"/>
+        </methods>
+      </class> <!-- Tests.TC03 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
